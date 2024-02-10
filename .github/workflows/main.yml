@@ -1,5 +1,7 @@
 name: A workflow for my Demo website
-on: push
+on: 
+  workflow_dispatch:
+
 jobs:
   build-job:
     name: Hello world action
